@@ -73,15 +73,15 @@ body {
 
 .hero-content {
   position: relative;
-  z-index: 1; /* Above the image */
+  z-index: 1; 
   max-width: 600px;
   margin-top: -20px;
-  padding-top: 10px; /* Add a 10px gap between the title and the content */
+  padding-top: 10px; 
 }
 
 .hero-title {
   font-size: 2rem;
-  margin-bottom: 10px; /* Adds a 10px gap between the title and the content */
+  margin-bottom: 10px; 
 }
 
 .hero-button {
@@ -96,7 +96,7 @@ body {
 }
 
 .hero-button:hover {
-  background-color: #daa751; /* Change hover color to #daa751 */
+  background-color: #daa751; 
 }
 
 
@@ -140,13 +140,13 @@ body {
 .small-images {
   display: grid;
   gap: 5px;
-  grid-template-columns: 1fr 1fr; /* Two images per row */
-  width: 100%; /* Stretches images to full width on mobile */
+  grid-template-columns: 1fr 1fr; 
+  width: 100%; 
 }
 
 .small-image {
   width: 100%;
-  height: 150px; /* Adjust height as needed */
+  height: 150px; 
   object-fit: cover;
 }
 
@@ -225,9 +225,9 @@ body {
 .background-container {
   position: relative;
   width: 100%;
-  height: 100vh;  /* Take full viewport height for mobile */
+  height: 100vh;  
   display: flex;
-  flex-direction: column;  /* Stack content vertically */
+  flex-direction: column; 
   justify-content: center;
   align-items: center;
   text-align: center;
@@ -240,19 +240,19 @@ body {
   left: 0;
   width: 100%;
   height: 100%;
-  object-fit: cover; /* Ensures the image covers the container */
-  z-index: -1; /* Ensure image stays in the background */
+  object-fit: cover; 
+  z-index: -1; 
 }
 
 /* Style for the menu-section and locations-section */
 .menu-section, .locations-section {
   position: relative;
-  z-index: 1;  /* Make sure the text appears above the background image */
-  width: 100%;  /* Take full width */
+  z-index: 1;  
+  width: 100%; 
   padding: 20px;
-  box-sizing: border-box; /* Prevent padding from affecting width */
-  color: white;  /* Set text color to white */
-  margin-bottom: 20px; /* Add space between the sections */
+  box-sizing: border-box; 
+  color: white;  
+  margin-bottom: 20px; 
 }
 
 /* Title Styling */
@@ -293,14 +293,14 @@ button {
 }
 
 
-/***************** About section  ****************** */
+/****** About section  *********/
 .about-background-container {
   display: block;
   overflow: hidden;
 }
 
 .about-background-image {
-  width: 100%;  /* Full width on mobile */
+  width: 100%;  
   height: auto;
 }
 
@@ -343,8 +343,6 @@ button {
   cursor: pointer;
 }
 
-/* Base Styles for Testimonials Section (Mobile Layout - Default) */
-/* Base Styles for Mobile Layout (Mobile-First Approach) */
 #testimonials {
   background-color: black;
   color: #d59e3d;
@@ -354,19 +352,19 @@ button {
 
 
 .testimonial-container {
-  display: block; /* Stack items vertically on mobile */
-  gap: 5px; /* 5px gap between each item */
+  display: block; 
+  gap: 5px; 
 }
 
 .testimonial-item {
-  width: 100%; /* Full width for mobile */
-  margin-bottom: 20px; /* 5px gap after each image */
-  position: relative; /* Ensure content can be positioned within the image */
+  width: 100%; 
+  margin-bottom: 20px; 
+  position: relative; 
 }
 
 .testimonial-image {
   width: 100%;
-  height: 450px; /* Increased height for the image on mobile */
+  height: 450px; 
   object-fit: cover;
   border-radius: 8px;
   margin-top: 0;
@@ -375,10 +373,10 @@ button {
 /* Overlay content on the image */
 .testimonial-content {
   position: absolute;
-  bottom: 10px; /* Position at the bottom of the image */
-  left: 10px; /* Align to the left side of the image */
+  bottom: 10px; 
+  left: 10px; 
   right: 10px;
-  text-align: left; /* Align text to the left */
+  text-align: left; 
   color: white;
   border-radius: 5px;
 }
@@ -392,19 +390,19 @@ button {
   color: #cf983b;
   font-size: 1.2rem;
   font-weight: bold;
-  margin-top: 5px; /* Adjust margin for mobile */
+  margin-top: 5px; 
 }
 
 .footer {
-  text-align: center; /* Center the footer text */
+  text-align: center; 
   padding: 20px;
 }
 
 .footer-text {
   font-size: 1rem;
   color: white;
-  text-decoration: none; /* Underline the text */
-  padding-bottom: 10px; /* Add space between text and underline */
+  text-decoration: none; 
+  padding-bottom: 10px; 
 }
 
 @media (min-width: 768px) {
@@ -442,7 +440,7 @@ button {
   }
 
   .welcome-section {
-    margin: 0 13%; /* 20% margin on both sides */
+    margin: 0 13%;
     text-align: left;
   }
   
@@ -452,20 +450,20 @@ button {
   }
 
   .full-image {
-    width: 50%; /* Left container with full image */
+    width: 50%;
     height: 545px;
   }
 
   .small-images {
-    width: 50%; /* Right container with small images */
+    width: 50%; 
     display: grid;
     gap: 5px;
-    grid-template-columns: 1fr 1fr; /* Two images per row */
+    grid-template-columns: 1fr 1fr; 
   }
 
   .small-image {
     width: 100%;
-    height: 270px; /* Same height for consistent appearance */
+    height: 270px;
   }
   
   /* Container styling */
@@ -484,19 +482,19 @@ button {
 
   /* Flex container for offer items in desktop view */
   .offer-items-row {
-    display: flex; /* Flexbox to arrange items horizontally */
-    justify-content: center; /* Center align items horizontally */
-    gap: 10px; /* 10px gap between each item */
-    flex-wrap: nowrap; /* Ensure no wrapping of items */
+    display: flex; 
+    justify-content: center; 
+    gap: 10px; 
+    flex-wrap: nowrap; 
   }
 
   /* Styling for individual offer items */
   .offer-item {
-    flex: 0 0 auto; /* Items should not stretch but maintain their size */
+    flex: 0 0 auto;
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-bottom: 3rem; /* Remove bottom margin to avoid extra space */
+    margin-bottom: 3rem; 
   }
 
   .offer-icon {
@@ -518,11 +516,11 @@ button {
   /* ********** General Styles for Desktop ******** */
 .background-container {
   display: flex;
-  flex-direction: row; /* Arrange sections horizontally */
+  flex-direction: row; 
   justify-content: space-between;
   
   position: relative;
-  height: 80vh; /* Set the height of the background image (adjust to your preference) */
+  height: 80vh; 
 }
 
 .background-image {
@@ -536,9 +534,9 @@ button {
 }
 
 .menu-section, .locations-section {
-  width: 48%; /* Each section takes up 48% of the container */
+  width: 48%; 
   position: relative;
-  top: 0; /* Ensure the sections are aligned properly */
+  top: 0; 
   transform: translateY(0); 
   height: auto; 
   margin-top: -15%;
@@ -548,13 +546,13 @@ button {
 .about-background-container {
   display: flex;
   align-items: center;
-  justify-content: center; /* Center the entire content */
-  margin-top: -10%; /* Move the content up */
+  justify-content: center; 
+  margin-top: -10%; 
   margin-left: 70px;
 }
 
 .about-background-image {
-  width: 35%; /* Reduced image width */
+  width: 35%;
   height: auto;
   margin-right: 20px; 
   margin-left: 70px; 
